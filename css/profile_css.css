@@ -1,0 +1,130 @@
+#header_profile{
+            background-color:rgb(59,89,152); 
+            height:50px;
+        }
+        #header_BeSocial_id{
+            font-family:tahoma; 
+            font-size:30px;
+            font-weight:bold;
+            background-color:rgb(59,89,140);
+            color:#d9dfeb;
+        }
+        #nav_bar{
+            width:90%; 
+            height:50px; 
+            margin:auto;
+            padding-left:15px
+        }
+        #search_field{
+            width:500px;
+            border-radius:8px;
+            padding: 6px;
+            border: none;
+            font-size: 17px;
+            margin-left:75px;
+        }
+
+
+        /* Style the links inside the navigation bar */
+        .buttons a {
+            
+        font-family:tahoma;
+        float: right;
+        display: block;
+        color: #d9dfeb;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .buttons a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .buttons a.active {
+        font-weight:bold;
+        background-color: #2196F3;
+        color: #d9dfeb;
+        }
+        #profile_pic{
+            margin-top:-250px;
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            border:solid 2px white;
+            background-color: white;
+        }
+        #change_buttons{
+            text-align:center;
+            background-color:rgb(59,89,152); 
+            margin:auto; 
+            margin-top:-20px;
+        }
+        #friends_box{
+            flex:1; 
+            height:450px;
+            background-color:white; 
+            min-height:250px;
+            padding-left:5px; 
+            margin-top:15px;
+            margin-right:8px; 
+            padding-top:15px;
+        }
+        #post_box{
+            flex:3;
+            min-height:400px; 
+            margin-top:15px;
+        }
+        textarea{
+            background-color:white;
+
+            width:100%;
+            height:65px;
+            border:none;
+            font-size:15px;
+            font-family:tahoma;
+        }
+        #button_post{
+            float: right;
+        }
+        #post_bar{
+            margin-top:15px;
+        }
+        #post_profile_image{
+            border-radius:50%;
+            width:50px;
+            height:50px;
+            /*float:left;*/
+            margin-right:15px;
+            
+        }
+        #post{
+            display:flex;
+            padding-top:5px;
+            padding-left:5px;
+            padding-right:35px;
+            padding-bottom: 20px;
+            margin-bottom:15px;
+            border: solid thin black;
+            border-radius:10px;
+            background-color:white;
+        }
+        #post_profile_name{
+            font-family:tahoma;
+            font-weight:bold;
+            font-size:20px;
+            
+        }
+        #add_friends{
+            font-family:tahoma;
+            font-weight:bold;
+            
+        }
+        #friend_profile_image{
+            width:50px;
+            height:50px;         
+        }
